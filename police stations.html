@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Police Stations | Smart City Management System</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f8fb;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f4c75, #3282b8);
+            color: white;
+            padding: 25px 8%;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px 8%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #0f4c75;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #3282b8;
+        }
+
+        .container {
+            width: 85%;
+            margin: 40px auto;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .intro h2 {
+            font-size: 30px;
+            color: #0f4c75;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        .police-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .police-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            border-top: 5px solid #3282b8;
+        }
+
+        .police-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .police-card h3 {
+            color: #0f4c75;
+            margin-bottom: 12px;
+        }
+
+        .police-card p {
+            margin: 8px 0;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .area {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 6px 12px;
+            background: #e8f4fb;
+            color: #0f4c75;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: #0f4c75;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            .container {
+                width: 90%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Smart City Management System</h1>
+
+        <p>Police Stations and Safety Services</p>
+
+    </header>
+
+
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="areas.html">Areas</a>
+        <a href="schools.html">Schools</a>
+        <a href="colleges.html">Colleges</a>
+        <a href="hospitals.html">Hospitals</a>
+        <a href="police.html">Police</a>
+        <a href="fire.html">Fire Stations</a>
+        <a href="emergency.html">Emergency</a>
+
+    </nav>
+
+
+    <div class="container">
+
+        <div class="intro">
+
+            <h2>Police Stations</h2>
+
+            <p>
+                Find police stations and safety facilities
+                across the selected areas.
+            </p>
+
+        </div>
+
+
+        <div class="police-container">
+
+
+            <div class="police-card">
+
+                <h3>Vashi Police Station</h3>
+
+                <p>
+                    <strong>Location:</strong> Vashi
+                </p>
+
+                <p>
+                    <strong>Service:</strong> Police & Public Safety
+                </p>
+
+                <span class="area">
+                    Vashi
+                </span>
+
+            </div>
+
+
+            <div class="police-card">
+
+                <h3>Kharghar Police Station</h3>
+
+                <p>
+                    <strong>Location:</strong> Kharghar
+                </p>
+
+                <p>
+                    <strong>Service:</strong> Police & Public Safety
+                </p>
+
+                <span class="area">
+                    Kharghar
+                </span>
+
+            </div>
+
+
+            <div class="police-card">
+
+                <h3>CBD Belapur Police Station</h3>
+
+                <p>
+                    <strong>Location:</strong> Belapur
+                </p>
+
+                <p>
+                    <strong>Service:</strong> Police & Public Safety
+                </p>
+
+                <span class="area">
+                    Belapur
+                </span>
+
+            </div>
+
+
+            <div class="police-card">
+
+                <h3>Panvel Police Station</h3>
+
+                <p>
+                    <strong>Location:</strong> Panvel
+                </p>
+
+                <p>
+                    <strong>Service:</strong> Police & Public Safety
+                </p>
+
+                <span class="area">
+                    Panvel
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <p>
+            © 2026 Smart City Management System | Navi Mumbai
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

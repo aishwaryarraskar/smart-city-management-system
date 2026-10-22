@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vashi Schools | Smart City Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+                nav {
+            background-color: #0b2d4d;
+            padding: 18px 50px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+        }
+
+        nav h2 {
+            color: white;
+            margin: 0;
+            margin-right: auto;
+            font-size: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 35px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #9fd3ff;
+        }
+
+        .schools-section {
+            padding: 60px 7%;
+            text-align: center;
+        }
+        .schools-section h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+        .schools-section .subtitle {
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+        .school-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+        }
+        .school-table th {
+            padding: 18px 15px;
+            background: #123c69;
+            color: white;
+            font-size: 16px;
+            text-align: center;
+        }
+        .school-table td {
+            padding: 16px 14px;
+            border-bottom: 1px solid #ddd;
+            font-size: 15px;
+            text-align: left;
+        }
+        .school-table td:first-child {
+            text-align: center;
+            font-weight: bold;
+        }
+        .school-table tbody tr:hover {
+            background: #f1f6fa;
+        }
+        @media (max-width: 700px) {
+            .school-table {
+                min-width: 750px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>Smart City</h2>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="areas.html">Areas</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+    <!-- Vashi Schools Section -->
+    <section class="schools-section">
+        <h1>Schools in Vashi</h1>
+        <p class="subtitle">
+            Educational institutions available in Vashi, Navi Mumbai
+        </p>
+        <div class="table-container">
+            <table class="school-table">
+                <thead>
+                    <tr>
+                        <th>Sr. No.</th>
+                        <th>School Name</th>
+                        <th>Address</th>
+                        <th>Phone No.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Modern School, Vashi</td>
+                        <td>Sector 7, Vashi, Navi Mumbai – 400703</td>
+                        <td>022-27821346</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ryan Christian School</td>
+                        <td>Sector 16A, Vashi, Navi Mumbai – 400703</td>
+                        <td>022-27650013</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Fr. Agnel Multipurpose School & Jr. College</td>
+                        <td>Sector 9A, Vashi, Navi Mumbai – 400703</td>
+                        <td>022-27660710</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Avalon Heights International School</td>
+                        <td>Sector 19B, Vashi, Navi Mumbai – 400703</td>
+                        <td>022-27839988</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>IES Navi Mumbai High School</td>
+                        <td>Sector 1, Vashi, Navi Mumbai – 400703</td>
+                        <td>022-27825895</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Goldcrest High School</td>
+                        <td>Sector 29, Vashi, Navi Mumbai – 400703</td>
+                        <td>08097608063</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Sacred Heart High School & Junior College</td>
+                        <td>Sector 4, Vashi, Navi Mumbai – 400703</td>
+                        <td>022-27821321</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Navi Mumbai Vidyalaya & Junior College</td>
+                        <td>Sector 26, Vashi, Navi Mumbai – 400703</td>
+                        <td>08655552410</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Vivekanand International School</td>
+                        <td>Sector 26, Vashi, Navi Mumbai – 400703</td>
+                        <td>08108832121</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

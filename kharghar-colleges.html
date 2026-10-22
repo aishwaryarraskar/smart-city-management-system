@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kharghar Colleges | Smart City Management System</title>
+
+    <style>
+
+        /* ================= BODY ================= */
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #333;
+        }
+
+
+        /* ================= NAVIGATION BAR ================= */
+
+        nav {
+            background-color: #0b2d4d;
+            padding: 16px 40px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        nav h2 {
+            margin: 0;
+            color: white;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+
+            margin-left: 28px;
+
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #d9eaf7;
+        }
+
+
+        /* ================= MAIN CONTAINER ================= */
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+
+            margin: 50px auto;
+        }
+
+
+        /* ================= HEADING ================= */
+
+        h1 {
+            text-align: center;
+
+            color: #0b2d4d;
+
+            font-size: 32px;
+
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+
+            color: #666;
+
+            font-size: 16px;
+
+            margin-bottom: 35px;
+        }
+
+
+        /* ================= TABLE ================= */
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+
+            border-collapse: collapse;
+
+            background-color: white;
+
+            border-radius: 10px;
+
+            overflow: hidden;
+
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+        }
+
+        th {
+            background-color: #0b2d4d;
+
+            color: white;
+
+            padding: 17px 15px;
+
+            text-align: center;
+
+            font-size: 16px;
+        }
+
+        td {
+            padding: 16px 15px;
+
+            border-bottom: 1px solid #e0e0e0;
+
+            font-size: 15px;
+
+            line-height: 1.5;
+        }
+
+        td:first-child {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover {
+            background-color: #f5f9fc;
+        }
+
+
+        /* ================= FOOTER ================= */
+
+        .footer {
+            margin-top: 60px;
+
+            padding: 18px;
+
+            background-color: #0b2d4d;
+
+            color: white;
+
+            text-align: center;
+
+            font-size: 14px;
+        }
+
+
+        /* ================= MOBILE ================= */
+
+        @media (max-width: 700px) {
+
+            nav {
+                padding: 15px 20px;
+
+                flex-direction: column;
+
+                gap: 12px;
+            }
+
+            nav a {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .container {
+                width: 94%;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            th,
+            td {
+                padding: 12px 10px;
+
+                font-size: 14px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= NAVIGATION BAR ================= -->
+
+    <nav>
+
+        <h2>Smart City</h2>
+
+        <div>
+
+            <a href="index.html">Home</a>
+
+            <a href="areas.html">Areas</a>
+
+            <a href="about.html">About</a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <div class="container">
+
+        <h1>Colleges in Kharghar</h1>
+
+        <p class="subtitle">
+            Colleges and higher-education institutions available in Kharghar
+        </p>
+
+
+        <!-- ================= COLLEGE TABLE ================= -->
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Sr. No.</th>
+
+                        <th>College Name</th>
+
+                        <th>Address</th>
+
+                        <th>Phone No.</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+
+                    <!-- 1 -->
+
+                    <tr>
+
+                        <td>1</td>
+
+                        <td>
+                            A. C. Patil College of Engineering
+                        </td>
+
+                        <td>
+                            Plot No. 17, Sion-Panvel Expressway,
+                            Opposite Kharghar Railway Station,
+                            Sector 4, Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            022-47120976 / 77
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 2 -->
+
+                    <tr>
+
+                        <td>2</td>
+
+                        <td>
+                            Ramsheth Thakur College of Commerce & Science
+                        </td>
+
+                        <td>
+                            Plot No. 1, Sector 33,
+                            Near Pethpada Metro Station,
+                            Kharghar, Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            09326602426
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 3 -->
+
+                    <tr>
+
+                        <td>3</td>
+
+                        <td>
+                            YMT College of Management
+                        </td>
+
+                        <td>
+                            Institutional Area, Sector 4,
+                            Kharghar, Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            022-27744408
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 4 -->
+
+                    <tr>
+
+                        <td>4</td>
+
+                        <td>
+                            Satyagraha College of Arts, Commerce & Science
+                        </td>
+
+                        <td>
+                            Plot No. 2A, Pethapada,
+                            Sector 33, Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            09821304515
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 5 -->
+
+                    <tr>
+
+                        <td>5</td>
+
+                        <td>
+                            NMIMS Navi Mumbai Campus
+                        </td>
+
+                        <td>
+                            Plot No. 2, Sector 33,
+                            Pethapada, Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            022-35476550
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 6 -->
+
+                    <tr>
+
+                        <td>6</td>
+
+                        <td>
+                            Bharati Vidyapeeth Deemed University
+                            Department of Engineering & Technology
+                        </td>
+
+                        <td>
+                            Sector 7, Belpada,
+                            Kharghar, Navi Mumbai - 410614
+                        </td>
+
+                        <td>
+                            022-35086505
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 7 -->
+
+                    <tr>
+
+                        <td>7</td>
+
+                        <td>
+                            Saraswati College of Engineering
+                        </td>
+
+                        <td>
+                            Plot No. 46, Near MSEB Sub Station,
+                            Sector 5, Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            09320299474
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 8 -->
+
+                    <tr>
+
+                        <td>8</td>
+
+                        <td>
+                            ITM Business School
+                        </td>
+
+                        <td>
+                            Plot No. 25 & 26,
+                            Institutional Area, Sector 4,
+                            Kharghar, Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            07738694008
+                        </td>
+
+                    </tr>
+
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <div class="footer">
+
+        Smart City Management System | Kharghar
+
+    </div>
+
+
+</body>
+
+</html>

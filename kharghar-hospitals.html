@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kharghar Hospitals | Smart City Management System</title>
+
+    <style>
+
+        /* ================= BODY ================= */
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #333;
+        }
+
+
+        /* ================= NAVIGATION BAR ================= */
+
+        nav {
+            background-color: #0b2d4d;
+            padding: 16px 40px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        nav h2 {
+            margin: 0;
+            color: white;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 28px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #d9eaf7;
+        }
+
+
+        /* ================= MAIN CONTAINER ================= */
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 50px auto;
+        }
+
+
+        /* ================= HEADING ================= */
+
+        h1 {
+            text-align: center;
+            color: #0b2d4d;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 35px;
+        }
+
+
+        /* ================= TABLE ================= */
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+        }
+
+        th {
+            background-color: #0b2d4d;
+            color: white;
+            padding: 17px 15px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        td {
+            padding: 16px 15px;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        td:first-child {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover {
+            background-color: #f5f9fc;
+        }
+
+
+        /* ================= EMERGENCY BOX ================= */
+
+        .emergency-box {
+            margin-top: 30px;
+            padding: 18px;
+            background-color: white;
+            border-left: 5px solid #0b2d4d;
+            border-radius: 6px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+
+        .emergency-box h3 {
+            color: #0b2d4d;
+            margin-top: 0;
+        }
+
+        .emergency-box p {
+            margin-bottom: 0;
+        }
+
+
+        /* ================= FOOTER ================= */
+
+        .footer {
+            margin-top: 60px;
+            padding: 18px;
+            background-color: #0b2d4d;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+
+
+        /* ================= MOBILE ================= */
+
+        @media (max-width: 700px) {
+
+            nav {
+                padding: 15px 20px;
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .container {
+                width: 94%;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            th,
+            td {
+                padding: 12px 10px;
+                font-size: 14px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= NAVIGATION BAR ================= -->
+
+    <nav>
+
+        <h2>Smart City</h2>
+
+        <div>
+
+            <a href="index.html">Home</a>
+
+            <a href="areas.html">Areas</a>
+
+            <a href="about.html">About</a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <div class="container">
+
+        <h1>Hospitals in Kharghar</h1>
+
+        <p class="subtitle">
+            Hospitals and healthcare facilities available in Kharghar
+        </p>
+
+
+        <!-- ================= HOSPITAL TABLE ================= -->
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Sr. No.</th>
+
+                        <th>Hospital Name</th>
+
+                        <th>Address</th>
+
+                        <th>Phone No.</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+
+                    <!-- 1 -->
+
+                    <tr>
+
+                        <td>1</td>
+
+                        <td>
+                            MITR Hospital
+                        </td>
+
+                        <td>
+                            Plot No. 37, Eden Gardens,
+                            Sector 5, Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            022-27744269
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 2 -->
+
+                    <tr>
+
+                        <td>2</td>
+
+                        <td>
+                            Medicover Hospitals
+                        </td>
+
+                        <td>
+                            Sector 10,
+                            Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            7768981337
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 3 -->
+
+                    <tr>
+
+                        <td>3</td>
+
+                        <td>
+                            Kharghar Medicity Hospital
+                        </td>
+
+                        <td>
+                            Plot No. C/23, Aum Sai CHS,
+                            Sector 7, Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            7045399388
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 4 -->
+
+                    <tr>
+
+                        <td>4</td>
+
+                        <td>
+                            Matrix Super Speciality Hospital
+                        </td>
+
+                        <td>
+                            Plot No. 21, Adjacent to ITM Hostel,
+                            Sector 5, Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            022-62535777
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 5 -->
+
+                    <tr>
+
+                        <td>5</td>
+
+                        <td>
+                            Motherhood Hospital
+                        </td>
+
+                        <td>
+                            Sector 7,
+                            Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            7045504599
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 6 -->
+
+                    <tr>
+
+                        <td>6</td>
+
+                        <td>
+                            Sanjeevan Hospital
+                        </td>
+
+                        <td>
+                            Plot No. F/41, Sector 12,
+                            Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            022-27743633
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 7 -->
+
+                    <tr>
+
+                        <td>7</td>
+
+                        <td>
+                            Polaris Hospital
+                        </td>
+
+                        <td>
+                            Plot No. 19/C, Sector 20,
+                            Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            09372338820
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 8 -->
+
+                    <tr>
+
+                        <td>8</td>
+
+                        <td>
+                            Spandan Multispeciality Hospital
+                        </td>
+
+                        <td>
+                            Plot No. 127,
+                            Sector 21, Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            09136131499
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 9 -->
+
+                    <tr>
+
+                        <td>9</td>
+
+                        <td>
+                            Om Navjeevan Hospital
+                        </td>
+
+                        <td>
+                            Plot No. 2, Sector 21,
+                            Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            07304350746
+                        </td>
+
+                    </tr>
+
+
+                    <!-- 10 -->
+
+                    <tr>
+
+                        <td>10</td>
+
+                        <td>
+                            Aayush Hospital
+                        </td>
+
+                        <td>
+                            Plot No. 112, Owe Village,
+                            Sector 30, Kharghar,
+                            Navi Mumbai - 410210
+                        </td>
+
+                        <td>
+                            09324808732
+                        </td>
+
+                    </tr>
+
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- ================= EMERGENCY INFORMATION ================= -->
+
+        <div class="emergency-box">
+
+            <h3>Medical Emergency</h3>
+
+            <p>
+                For ambulance assistance, dial
+                <strong>108</strong>.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <div class="footer">
+
+        Smart City Management System | Kharghar
+
+    </div>
+
+
+</body>
+
+</html>

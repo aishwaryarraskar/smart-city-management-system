@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vashi Police Stations | Smart City Management System</title>
+
+    <style>
+
+        /* ---------- BODY ---------- */
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #333;
+        }
+
+
+        /* ---------- NAVIGATION BAR ---------- */
+
+        nav {
+            background-color: #0b2d4d;
+            padding: 16px 40px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        nav h2 {
+            margin: 0;
+            color: white;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+
+            margin-left: 28px;
+
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #d9eaf7;
+        }
+
+
+        /* ---------- MAIN SECTION ---------- */
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+
+            margin: 50px auto;
+        }
+
+        h1 {
+            text-align: center;
+
+            color: #0b2d4d;
+
+            font-size: 32px;
+
+            margin-bottom: 12px;
+        }
+
+        .subtitle {
+            text-align: center;
+
+            color: #666;
+
+            font-size: 16px;
+
+            margin-bottom: 35px;
+        }
+
+
+        /* ---------- TABLE ---------- */
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+
+            border-collapse: collapse;
+
+            background-color: white;
+
+            border-radius: 10px;
+
+            overflow: hidden;
+
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+        }
+
+        th {
+            background-color: #0b2d4d;
+
+            color: white;
+
+            padding: 17px 15px;
+
+            text-align: center;
+
+            font-size: 16px;
+        }
+
+        td {
+            padding: 17px 15px;
+
+            border-bottom: 1px solid #e0e0e0;
+
+            font-size: 15px;
+
+            line-height: 1.5;
+        }
+
+        td:first-child {
+            text-align: center;
+
+            font-weight: bold;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover {
+            background-color: #f5f9fc;
+        }
+
+
+        /* ---------- EMERGENCY INFORMATION ---------- */
+
+        .emergency-box {
+            margin-top: 30px;
+
+            padding: 18px;
+
+            background-color: white;
+
+            border-left: 5px solid #0b2d4d;
+
+            border-radius: 6px;
+
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+            text-align: center;
+        }
+
+        .emergency-box h3 {
+            margin-top: 0;
+
+            color: #0b2d4d;
+        }
+
+        .emergency-box p {
+            margin-bottom: 0;
+
+            font-size: 15px;
+        }
+
+
+        /* ---------- FOOTER ---------- */
+
+        .footer {
+            margin-top: 60px;
+
+            padding: 18px;
+
+            background-color: #0b2d4d;
+
+            color: white;
+
+            text-align: center;
+
+            font-size: 14px;
+        }
+
+
+        /* ---------- MOBILE ---------- */
+
+        @media (max-width: 700px) {
+
+            nav {
+                padding: 15px 20px;
+
+                flex-direction: column;
+
+                gap: 12px;
+            }
+
+            nav a {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .container {
+                width: 94%;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            th,
+            td {
+                padding: 12px 10px;
+
+                font-size: 14px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= NAVIGATION BAR ================= -->
+
+    <nav>
+
+        <h2>Smart City</h2>
+
+        <div>
+
+            <a href="index.html">Home</a>
+
+            <a href="areas.html">Areas</a>
+
+            <a href="about.html">About</a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <div class="container">
+
+        <h1>Police Stations in Vashi</h1>
+
+        <p class="subtitle">
+            Important police stations serving the Vashi area
+        </p>
+
+
+        <!-- ================= TABLE ================= -->
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Sr. No.</th>
+
+                        <th>Police Station Name</th>
+
+                        <th>Address</th>
+
+                        <th>Phone No.</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+
+                    <!-- VASHI POLICE STATION -->
+
+                    <tr>
+
+                        <td>1</td>
+
+                        <td>
+                            Vashi Police Station
+                        </td>
+
+                        <td>
+                            NMSA Road, Near Navi Mumbai Primary School,
+                            Next to MGM Hospital, Sector 3,
+                            Vashi, Navi Mumbai - 400703
+                        </td>
+
+                        <td>
+                            022-27820346
+                        </td>
+
+                    </tr>
+
+
+                    <!-- APMC POLICE STATION -->
+
+                    <tr>
+
+                        <td>2</td>
+
+                        <td>
+                            APMC Police Station
+                        </td>
+
+                        <td>
+                            APMC Central Building,
+                            Sector 19A, Dana Bandar,
+                            Vashi, Navi Mumbai - 400703
+                        </td>
+
+                        <td>
+                            022-27838963
+                        </td>
+
+                    </tr>
+
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- ================= EMERGENCY INFORMATION ================= -->
+
+        <div class="emergency-box">
+
+            <h3>Police Emergency</h3>
+
+            <p>
+                For immediate police assistance, dial
+                <strong>112</strong>.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <div class="footer">
+
+        Smart City Management System | Vashi
+
+    </div>
+
+
+</body>
+
+</html>
